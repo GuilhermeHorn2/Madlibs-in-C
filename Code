@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char color[20];
+    char pluralnoun[20];
+    char object[20];
+    printf("Enter a color: ");
+    scanf("%s",&color);
+    printf("Enter a plural-noun: ");
+    scanf("%s",&pluralnoun);
+    printf("Enter an object: ");
+    scanf("%s",&object);
+
+    printf("                             \n");
+    printf("Roses are %s \n",color);
+    printf("%s are blue \n",pluralnoun);
+    printf("I love %s",object);
+
+
+
+    return 0;
+}
